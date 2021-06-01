@@ -66,7 +66,9 @@
       <a href="javascript:void(0)" data-toggle="dropdown" class="icon">
         <i class="fas fa-ellipsis-v px-4"></i>
       </a>
-      <div class="dropdown-menu dropdown-menu-right">
+        <div class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item" href="/presentation/<%= recording[:recordID] %>/meeting.mp4"><i class="dropdown-icon fas fa-download"></i>Download MP4 Video</a>
+        <div class="dropdown-divider"></div>
         <% recording_links = "" %>
         <% p = recording[:playbacks].each do |p| recording_links.concat(p[:url] + "\n\n") if p.key?(:length) end %>
         <% if p %>
