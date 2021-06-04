@@ -495,6 +495,7 @@ de_DE:
     all_recordings: Alle Aufzeichnungen
     email: Aufzeichnungslink per E-Mail
     error: "Beim Abruf von %{count} Aufzeichnung(en) ist ein Fehler aufgetreten."
+    download: "MP4 Video herunterladen"
     no_recordings: "Dieser Raum hat keine %{inject} Aufzeichnungen."
     no_user_recordings: Momentan sind keine Aufzeichnungen verfügbar.
     no_matched_recordings: "Keine %{inject} Aufzeichnungen passen zu Ihrer Suche."

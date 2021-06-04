@@ -448,6 +448,7 @@ pt_BR:
     all_recordings: Gravações
     email: Enviar link da gravação por e-mail
     error: "Ocorreu um erro ao recuperar %{count} gravações"
+    download: "Baixar gravação em MP4"
     no_recordings: "Esta sala não possui %{inject} gravações."
     no_user_recordings: Você não possui gravações.
     no_matched_recordings: "Nenhuma gravação corresponde à sua busca %{inject}."
